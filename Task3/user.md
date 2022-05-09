@@ -25,6 +25,7 @@ sudo mv manjit.crt .certs/
 
 # 9.
 kubectl config set-credentials manjit --client-certificate=/home/manjit/.certs/manjit.crt --client-key=/home/manjit/.certs/manjit.key
+
 kubectl config set-context manjit-context --cluster=kubernetes --user=manjit
 
 # 10.
